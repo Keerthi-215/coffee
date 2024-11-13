@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us - Coffee Shop</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section aria-labelledby="contact-heading">
+        <h1 id="contact-heading">Contact Us</h1>
+
+        <section aria-labelledby="contact-info">
+          <h2 id="contact-info" class="visually-hidden">Contact Details</h2>
+          <ul>
+            <li>
+              <a href="mailto:Mirabelcoffeeshop@gmail.com"
+                >Mirabelcoffeeshop@gmail.com</a
+              >
+            </li>
+            <li><a href="tel:0123456789">0123456789</a></li>
+          </ul>
+        </section>
+
+        <section aria-labelledby="contact-image">
+          <h2 id="contact-image" class="visually-hidden">Coffee Shop Image</h2>
+          <figure>
+            <img
+              src="https://www.luxcafeclub.com/cdn/shop/articles/Minimalist_Modern_Coffee_Shop_1_1100x.png?v=1713243107"
+              alt="Modern minimalist coffee shop ambiance"
+              width="100%"
+            />
+            <figcaption>
+              Experience the cozy ambiance at Mirabel Coffee Shop.
+            </figcaption>
+          </figure>
+        </section>
+
+        <section aria-labelledby="contact-form">
+          <h2 id="contact-form">Send Us a Message</h2>
+          <form action="#" method="post">
+            <div>
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" required />
+            </div>
+            <div>
+              <label for="email">E-Mail</label>
+              <input type="email" id="email" name="email" required />
+            </div>
+            <div>
+              <label for="message">Message</label>
+              <textarea id="message" name="message" required></textarea>
+            </div>
+            <button type="submit">Submit</button>
+          </form>
+        </section>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2024 Mirabel Coffee Shop. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
